@@ -115,7 +115,10 @@ export default {
   .container {
    display: grid;
    grid-template-columns: repeat(6, 1fr);
-   margin-bottom: 1000px;
+   position: fixed; 
+   top: 10%;
+   transform: translate(-50%, -50%);
+
   }
 }
 @media only screen and (max-width: 999px) {

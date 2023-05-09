@@ -22,7 +22,8 @@ body{
 }
 
 .flower{
-    position: relative;
+    position: fixed;
+    right: 5%;
 }
 
 .flower__glass{
